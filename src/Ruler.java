@@ -32,23 +32,23 @@ public class Ruler {
 			minJ = startJ;
 		}
 		
-		if(name.equals("≥µ")){
+		if(name.equals("ËΩ¶")){
 			che(maxI,minI,maxJ,minJ);
-		}else if(name.equals("¬Ì")){
+		}else if(name.equals("È©¨")){
 			ma(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals("œ‡")){
+		}else if(name.equals("Áõ∏")){
 			xiang1(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals(" ø") || name.equals(" À")){
+		}else if(name.equals("Â£´") || name.equals("Áõ∏")){
 			shi(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals("Àß")||name.equals("Ω´")){
+		}else if(name.equals("Â∏Ö")||name.equals("Â∞Ü")){
 			jiang(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals("≈⁄")){
+		}else if(name.equals("ÁÇÆ")){
 			pao(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals("±¯")){
+		}else if(name.equals("ÂÖµ")){
 			bing(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals("œÛ")){
+		}else if(name.equals("Ë±°")){
 			xiang2(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
-		}else if(name.equals("◊‰")){
+		}else if(name.equals("Âçí")){
 			zu(maxI,minI,maxJ,minJ,startI,startJ,endI,endJ);
 		}
 		
