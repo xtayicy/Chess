@@ -1,6 +1,6 @@
 # chess
 chinese chess.
 
-Swing、Gui、socket.
+Swing+Gui+Socket
 
 
