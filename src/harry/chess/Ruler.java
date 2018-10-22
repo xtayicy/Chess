@@ -1,9 +1,15 @@
+package harry.chess;
 
+/**
+ * 
+ * @author Harry
+ *
+ */
 public class Ruler {
-	Chess[][] chess;
-	boolean move = false;
-	int i;
-	int j;
+	private Chess[][] chess;
+	private boolean move = false;
+	private int i;
+	private int j;
 	
 	public Ruler(Chess[][] chess){
 		this.chess = chess;

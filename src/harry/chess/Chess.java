@@ -1,16 +1,17 @@
+package harry.chess;
 import java.awt.Color;
 
-
+/**
+ * 
+ * @author Harry
+ *
+ */
 public class Chess {
 	private Color color;
 	private String name;
 	private int x;
 	private int y;
 	private boolean focus = false;
-	
-	public Chess(){
-		
-	}
 	
 	public Chess(Color color,String name,int x,int y){
 		this.color = color;
@@ -57,5 +58,11 @@ public class Chess {
 
 	public void setFocus(boolean focus) {
 		this.focus = focus;
+	}
+
+	@Override
+	public String toString() {
+		return "Chess [color=" + color + ", name=" + name + ", x=" + x + ", y="
+				+ y + ", focus=" + focus + "]";
 	}
 }
